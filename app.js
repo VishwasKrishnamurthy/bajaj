@@ -49,7 +49,7 @@ function getFinalSQL(regNo) {
     console.log("Submission Successful!");
     console.log("Server Response:", submitRes.data);
   } catch (err) {
-    console.error("Error:", err.response?.data || err.message);
+    console.error("Error:", err.response?.data ||  err.message);
   }
 })();
 
