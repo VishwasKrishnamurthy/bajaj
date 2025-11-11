@@ -4,7 +4,7 @@ import axios from "axios";
 const app = express();
 
 const name = "John Doe";
-const regNo = "REG12347"; // change your reg no
+const regNo = "REG12347"; 
 const email = "john@example.com";
 
 const generateWebhookUrl = "https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA";
